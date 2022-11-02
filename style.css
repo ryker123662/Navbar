@@ -56,6 +56,8 @@ nav{
 @media screen and (max-width:768px) {
     body{
         overflow-x: hidden; 
+        overflow-y: hidden;
+        
     }
     .nav-links{
         position: absolute;
@@ -102,4 +104,52 @@ nav{
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 100%;
+    padding: 1rem 0rem;
+    align-content: center;
+}
+
+h3 {
+    font-size: 1.25rem;
+    line-height: 100%;
+    padding: 1rem 0rem;
+    align-content: center;
+}
+.ctas {
+    margin-top: 2rem;
+    align-content: center;
+}
+.ctas button {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.211);
+    margin: 1rem;
+}
+.cta-main {
+    background-color: #ff8ba7;
+    text-decoration: none;
+}
+.cta-sec{
+    background-color: #ff8ba7;
+}
+
+.selling-point {
+    padding-top: 5vh;
+    font-family: "argonite", sans-serif;
+    text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.511);
+    text-align: center;
+}
+.my-photo{
+    position:relative;
+    width:300px;
+    height:300px; 
+    border-radius:50%;
+    margin-bottom: 20px;
+    object-fit:cover;
 }
