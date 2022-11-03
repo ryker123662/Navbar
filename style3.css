@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body,
+html{
+    min-height: 100%;
+}
+body{
+    background: url(./background-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my-name{
+    text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        max-width: 960px;
+}
